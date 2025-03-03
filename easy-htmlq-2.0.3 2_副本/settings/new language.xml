@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">Continue...</item>
+        <item id="btnclose">Close</item>
+        <item id="btnHelp">Help me!</item>
+        <item id="btnAgreement">Agree</item>
+        <item id="btnNeutral">Neutral</item>
+        <item id="btnDisagreement">Disagree</item>
+        <item id="btnTransfer">Submit data</item>
+        <item id="btnExit">Exit</item>
+        <item id="selectItem">Please select...</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">Your answers will be lost.</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">Back</item>
+        <item id="fillInRequiredFields">Please fill in all required fields</item>
+
+        <!-- errors -->
+        <item id="errorHead">Error!</item>
+        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">Welcome! 欢迎！</item>
+        <item id="welcomeText">This is a project exploring how local Chinese language teachers in Malaysia regulate their emotions when facing classroom stressors.{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey. 
+这是一个旨在探讨马来西亚本土中文教师在面对课堂压力源时如何调节情绪的研究。{br}{br}{b}**重要信息**{/b}{br}为了更好地完成本调查，您需要尽可能多的屏幕空间！{br}{br}如果可能的话，请{b}最大化{/b}您的浏览器窗口，{b}{i}重新加载本网页{/i}{/b}，并点击 “继续” 按钮开始调查。</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Access Code</item>
+        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginFormHeader">Access Code</item>
+        <item id="loginPartIdText">Your name or survey id number</item>
+        <item id="loginNoInput">Please enter the access code.</item>
+        <item id="loginInvalidInput">Access code invalid</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">Introduction 介绍</item>
+        <item id="introText">This study explores how local Chinese language teachers in Malaysia regulate their emotions when facing classroom stressors using Q methodology. You will be asked to rank a set of statements based on your own teaching experiences. There are no right or wrong answers—we are interested in your perspective.Thank you for your participation—your insights are invaluable!
+本研究探讨马来西亚本土中文教师在应对课堂压力源时的情感调节策略，并采用 Q 方法论（Q Methodology） 识别不同教师群体的策略模式。您的任务是对一组陈述进行排序，以反映您的真实教学体验。无对错之分，我们关注的是您的个人看法。感谢您的参与，您的贡献对本研究至关重要！</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">Step 1 of 5</item>
+        <item id="step1Text">Read the following statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for cards you tend to agree with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or {b}press 1, 2, 3{/b} on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.
+请仔细阅读以下陈述，并将它们分成三组：一组是您倾向于不同意的陈述、一组是您倾向于同意的陈述、一组是介于两者之间的陈述。{br}{br}您可以拖动卡片到相应的组别，或者{b}按键盘上的 1、2、3 {/b}进行分类。{br}{br}您可以随时修改您的选择。如果您需要再次阅读此说明，请点击左下角的帮助按钮。</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">Step 2 of 5</item>
+        <item id="step2Text">Take the cards from the "AGREE"-pile and arrange them on right side of the score sheet.{br}{br}Next, take the cards from the "DISAGREE"-pile and arrange them on the left side of the score sheet. Follow this procedure for all cards in the "AGREE"- and "DISAGREE"-piles.{br}{br}Finally, take the "NEUTRAL"-cards arrange them in the remaining open boxes of the score sheet.
+请将 “同意” 组的卡片放置在评分表的右侧。{br}{br}接下来，将 “不同意” 组的卡片放置在评分表的左侧。按照此顺序完成 “同意” 和 “不同意” 组的所有卡片。{br}{br}最后，将 “中立” 组的卡片放入评分表剩余的空格中。</item>
+        <item id="step2CondOfInstruc">Please recall your classroom teaching experiences and categorize the following statements based on your real-life experiences. These statements cover classroom stressors, the emotion regulation strategies you typically use, and the strategies you adopt in response to specific classroom stressors.请回忆您的课堂教学经历，并基于您的真实体验，对以下陈述进行分类，这些陈述涵盖课堂压力源、您通常使用的情感调节策略，以及您针对特定课堂压力所采取的应对方式。英语请回忆您的课堂教学经历，并基于您的真实体验，对以下陈述进行分类，这些陈述涵盖课堂压力源、您通常使用的情感调节策略，以及您针对特定课堂压力所采取的应对方式。</item>
+        <item id="step2TextSizeLabel">Text</item>
+        
+
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">Step 3 of 5</item>
+        <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and swap card positions cards if desired.
+您已将所有卡片放置在评分栏中。请再次检查您的排序分布，并根据需要调整卡片的位置。</item>
+        <item id="step3CondOfInstruc">Please recall your classroom teaching experiences and carefully rank the following statements based on your real-life experiences. These statements cover classroom stressors, the emotion regulation strategies you typically use, and the strategies you adopt in response to specific classroom stressors.请回忆您的课堂教学经历，并根据您的真实体验，仔细对以下陈述进行排序。这些陈述涵盖课堂压力源、您通常使用的情感调节策略，以及您针对特定课堂压力所采取的应对方式。</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">Step 4 of 5</item>
+        <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+5" or "-5".
+请解释您为什么最同意或最不同意您放置在 “+5” 或 “-5” 位置的以下陈述。</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">Step 5 of 5</item>
+        <item id="step5Text">Finally, please answer the following questions regarding your background.
+最后，请回答以下关于您个人背景的问题。
+What is your gender?
+您的性别是？
+How many years have you been teaching?
+您的教学年龄是？
+What is your educational background?
+您的学历背景是？</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">Submit Data</item>
+        <item id="transferText">You've finished the survey. Please submit your data now.</item>
+        <item id="transferFailed">Data submission failed. Please try again.</item>
+        <item id="transferOk">Thank you for using Easy HTMLQ!{br}{br}You can now close your browser window.
+</item>   
+   </language>
